@@ -1,10 +1,10 @@
 A system that maintains a list of "Buy" and "Sell" orders for a single stock (e.g., "AAPL").
 
-# Requirement 1.1: I must be able to enter a New Order into the system.
+Requirement 1.1: I must be able to enter a New Order into the system.
 
-# Requirement 1.2: I must be able to Cancel an existing order so it no longer appears in the book.
+Requirement 1.2: I must be able to Cancel an existing order so it no longer appears in the book.
 
-# Requirement 1.3: The system must automatically execute a Trade whenever a Buyer is willing to pay a price equal to or higher than what a Seller is asking.
+Requirement 1.3: The system must automatically execute a Trade whenever a Buyer is willing to pay a price equal to or higher than what a Seller is asking.
 
 ## System Input
 The system should accept commands from the console (keyboard) in this format:
