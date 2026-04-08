@@ -8,8 +8,10 @@ class Order
         double unit_price;
     public:
         Order(unsigned id, double amount, unsigned int units);
-        unsigned int getOrderId();
+        unsigned int getOrderId() const;
         double getAmount();
+        void setAmount(double amount);
         unsigned int getUnits();
-        unsigned int getUnitPrice();    
+        void setUnits(unsigned int units);
+        unsigned int getUnitPrice() const;    
 };
